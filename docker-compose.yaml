@@ -14,7 +14,7 @@ services:
     environment:
       TZ: "America/New_York"
     volumes:
-      - unifi:./data/unifi:rw
+      - unifi:/data/unifi:rw
 
 volumes:
   unifi:
